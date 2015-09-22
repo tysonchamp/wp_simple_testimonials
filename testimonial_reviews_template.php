@@ -35,7 +35,7 @@ get_header();
                           <div class="panel panel-default arrow left">
                             <div class="panel-body">
                               <header class="text-left">
-                                <div class="comment-user"><i class="fa fa-user"></i> <?php the_title(); ?> &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-calendar"></i> Aug 10, 2015 &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-clock-o"></i> 01:05 pm</div>
+                                <div class="comment-user"><i class="fa fa-user"></i> <?php the_title(); ?> &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-calendar"></i> <?php the_time('F j, Y'); ?> &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-clock-o"></i> <?php the_time('g:i a'); ?></div>
                               </header>
                               <div class="comment-post" style="margin-top:20px;">
                                 <?php the_content(); ?>
@@ -50,7 +50,7 @@ get_header();
                           <div class="panel panel-default arrow right">
                             <div class="panel-body">
                               <header class="text-right">
-                                <div class="comment-user"><i class="fa fa-user"></i> <?php the_title(); ?> &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-calendar"></i> Aug 10, 2015 &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-clock-o"></i> 01:05 pm</div>
+                                <div class="comment-user"><i class="fa fa-user"></i> <?php the_title(); ?> &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-calendar"></i> <?php the_time('F j, Y'); ?> &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-clock-o"></i> <?php the_time('g:i a'); ?></div>
                               </header>
                               <div class="comment-post" style="margin-top:20px; text-align:right;">
                                 <?php the_content(); ?>
